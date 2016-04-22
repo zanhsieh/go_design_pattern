@@ -1,14 +1,13 @@
-# Go言語でのデザインパターン実装
+# Design pattern implementation in Go language
 
-このリポジトリはGo言語でのデザインパターン実装を試したものです。
-ここで得られた構造体実装に関する知見は[ブログ](http://blog.monochromegane.com/)に`Go言語による構造体実装パターン`としてまとめています。
+This repository tried to implement the design pattern in the Go language.
+Original stucture implmentatation pattern in Go language are summarized on this [blog](http://blog.monochromegane.com/blog/2014/03/23/struct-implementaion-patterns-in-golang)
 
-パターン実装にあたっては、結城 浩さんの[増補改訂版Java言語で学ぶデザインパターン入門](http://www.amazon.co.jp/%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88Java%E8%A8%80%E8%AA%9E%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%85%A5%E9%96%80-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4797327030/ref=sr_1_2?ie=UTF8&qid=1395468803&sr=8-2&keywords=%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)を参考にしました。
-各デザインパターンの解説についてはそちらを参考にしてください。
+In pattern implmentation, the book material of 結城浩[増補改訂版Java言語で学ぶデザインパターン入門](http://www.amazon.co.jp/%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88Java%E8%A8%80%E8%AA%9E%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%85%A5%E9%96%80-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4797327030/ref=sr_1_2?ie=UTF8&qid=1395468803&sr=8-2&keywords=%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3) was used. Please kindly visit above as a reference for the explanation of each design pattern.
 
-# デザインパターン
+# Design Pattern
 
-## 生成に関するパターン
+## Generation Pattern
 
 - [Abstract Factory](https://github.com/monochromegane/go_design_pattern/tree/master/abstract_factory)
 - [Builder](https://github.com/monochromegane/go_design_pattern/tree/master/builder)
@@ -16,7 +15,7 @@
 - [Prototype](https://github.com/monochromegane/go_design_pattern/tree/master/prototype)
 - [Singleton](https://github.com/monochromegane/go_design_pattern/tree/master/singleton)
 
-## 構造に関するパターン
+## Structure Pattern
 
 - [Adapter](https://github.com/monochromegane/go_design_pattern/tree/master/adapter)
 - [Bridge](https://github.com/monochromegane/go_design_pattern/tree/master/bridge)
@@ -26,7 +25,7 @@
 - [Flyweight](https://github.com/monochromegane/go_design_pattern/tree/master/flyweight)
 - [Proxy](https://github.com/monochromegane/go_design_pattern/tree/master/proxy)
 
-## 振る舞いに関するパターン
+## Behavior Pattern
 
 - [Chain of Responsibility](https://github.com/monochromegane/go_design_pattern/tree/master/chain_of_responsibility)
 - [Command](https://github.com/monochromegane/go_design_pattern/tree/master/command)
